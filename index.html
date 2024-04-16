@@ -4,7 +4,10 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
   <script src="https://cdn.tailwindcss.com"></script>
+  
+ 
 </head>
 <link rel="stylesheet" href="style.css">
 
@@ -34,29 +37,34 @@
         <img src="./images/Untitled design (1).png" alt="" width="50px" style="border-radius: 12px;">
         <span class="ml-3 text-3xl">Himanshu Narware</span>
       </a>
-      <nav class="md:ml-auto flex flex-wrap items-center text-base justify-center">
+     
+
+      <nav class="md:ml-auto flex flex-wrap items-center text-base justify-center" id="sidemenu">
         <a class="mr-5 hover:text-gray-500 text-xl hover:underline duration-1000" href="#home">Home</a>
         <a class="mr-5 hover:text-gray-500 text-xl hover:underline duration-1000" href="#about">About</a>
-        <a class="mr-5 hover:text-gray-500 duration-1000 text-xl hover:underline" href="#experience">Expericence</a>
+        <a class="mr-5 hover:text-gray-500 duration-1000 text-xl hover:underline" href="#experience">Experience</a>
         <a class="mr-5 duration-1000 hover:text-gray-500 text-xl hover:underline" href="#project">Projects</a>
         <a class="mr-5 duration-1000 hover:text-gray-500 text-xl hover:underline" href="#blogs">Blogs</a>
         <a class="mr-5 duration-1000 hover:text-gray-500 text-xl hover:underline" href="#contact">Contact</a>
+       
       </nav>
 
     </div>
   </header>
+  
+  
   <!-- Home section -->
 
   <header>
     <div class="home" id="home">
       <h3 class="text-white mt-16 text-4xl font-medium">BTech Student</h3>
       <span class=" text-white mt-5 text-5xl font-semibold "> I am
-        <span id="autoType" style="color: rgb(72, 20, 121);font-size: larger; font-style:normal;"></span>
+        <span  id="autoType" style="color: rgb(72, 20, 121);font-size: larger; font-style:normal;"></span>
       </span>
+      <p class=" text-white mt-4 text-6xl font-semibold " > I am <span style="color: rgb(72, 20, 121);font-size: larger; font-style:normal;"> Himanshu Narware</span></p>
       <h3 class="text-white mt-5 text-3xl font-medium">GDSC Lead'23||Blockchain|| Robotics || Space Tech
       </h3>
       <h3 class="text-white mt-3 text-3xl font-medium"> MERN STACK || JAVA || Open Source ||Frontend ||Backend</h3>
-
 
     </div>
   </header>
@@ -72,14 +80,14 @@
         <h1 class="title-font sm:text-6xl text-5xl mb-4 font-medium text-white">About Me
 
         </h1>
-        <p class="mb-8 leading-relaxed">I am a final-year B.Tech student at Radharaman Institute of Technology and
+        <p class="mb-8 leading-relaxed" style="text-align: justify;">I am a final-year B.Tech student at Radharaman Institute of Technology and
           science.
           Along with my academic pursuits, I am a front-end developer with a keen interest in open-source
           software and technology in general.
           <br><br> I enjoy keeping up with the latest trends and am constantly seeking ways
           to expand my knowledge and skills. My passion for technology is matched by my strong drive to succeed in my
           chosen field, and I am always looking for opportunities to develop and apply my skills.
-          <br>
+          <br><br>
           I am an enthusiastic team player who enjoys collaborating with others to solve problems and achieve common
           goals.With my strong work ethic and dedication to excellence, I am confident that I will make a positive
           impact in any role or project I take on.
@@ -985,7 +993,7 @@
           <label for="message" class="leading-7 text-sm text-gray-200">Message</label>
           <textarea id="message" name="message" class="w-full bg-gray-300 rounded border border-gray-300 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-200 h-32 text-base outline-none text-gray-700 py-1 px-3 resize-none leading-6 transition-colors duration-200 ease-in-out"></textarea>
         </div>
-        <button class="text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg" onclick="sendEmail(); reset(); return false;">Button</button>
+        <button class="text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg" onclick="sendEmail(); reset(); return false;">Submit</button>
         <p class="text-xs text-gray-500 mt-3"> </p>
       </div>
     </div>

@@ -52,6 +52,10 @@ border-radius: 5px;
 h1 .color{
     color: aqua!important;
 }
+.mt-4{
+    display: none;
+  }
+ 
 
 .borderGreen{
 border: 1.2px solid green;
@@ -148,3 +152,93 @@ transition: .5s;
     border-radius: 55%;
 }
 
+
+/* for mobile view */
+@media only screen and (max-width: 600px) {
+
+     /* side menu */
+     
+
+    .home {
+        /* Adjusting font styles for mobile view */
+        font-size: 18px;
+        line-height: 1.5;
+        text-align: center;
+    }
+
+    .text-4xl {
+        /* Reduce font size for heading */
+        font-size: 20px;
+    }
+
+    .text-5xl {
+        /* Reduce font size for subheading */
+        
+        display: none;
+    }
+
+    .text-6xl{
+        display: block;
+        font-size: 25px;
+       
+    }
+    
+
+    #autoType {
+        /* Adjust font size for autoType span */
+        font-size: 24px;
+    }
+
+    .text-3xl {
+        /* Reduce font size for additional headings */
+        font-size: 20px;
+    }
+
+    .mt-16,
+    .mt-5,
+    .mt-3 {
+        /* Adjust margin for headings */
+        margin-top: 1rem;
+    }
+
+    .lg\:max-w-lg,
+    .lg\:w-full,
+    .md\:w-1\/2,
+    .w-5\/6,
+    .mb-10 {
+        /* Resetting the width and margin styles for mobile view */
+        max-width: 100% !important;
+        width: 100% !important;
+        margin-bottom: 1.5rem !important; /* Adjust margin for mobile view */
+    }
+
+
+
+
+    .object-cover {
+       
+        align-items: center; /* Vertically center the image */
+        /* Ensure image covers its container on mobile */
+        width: 100% !important;
+        height: auto !important;
+    }
+
+    .-mt-40 {
+        margin-top: 0 !important; /* Remove negative top margin on mobile */
+    }
+
+    .rounded-full {
+        /* Adjust border-radius for mobile view */
+        border-radius: 60% !important;
+    }
+    /* justify the about section */
+    .mb-8{
+       text-align: justify; 
+    }
+    
+
+    
+
+}
+
+    
